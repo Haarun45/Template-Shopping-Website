@@ -1,0 +1,268 @@
+#title {
+    background-color: lightblue;
+    color: black;
+     background: #343233;
+}
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    background: #343233;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: lightblue;
+    color: black;
+}
+
+.white-section {
+     background: #343233;
+    color: white;
+} 
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-weight: 100;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+.col-lg-6 {
+    float: right;
+}
+
+/*Download*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.7rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: white;
+}
+/*Features*/
+
+
+
+#features {
+    position: relative;
+}
+.feature-box {
+    padding: 4.5%;
+}
+.icon {
+    color: lightblue;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: lightcyan;
+}
+.feature-title {
+    font-size: 1.5rem;
+}
+
+
+/*testimonials*/
+
+
+
+#testimonials {
+    background-color: lightblue;
+}
+testimonial-image {
+    text-align: center;
+    background-color: lightblue;
+    color:black;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*title section*/
+
+
+#title {
+    background-color: lightblue;
+    color: black;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15%;
+    text-align: left;
+}
+
+
+
+/*Title Image*/
+.title-image {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+#press {
+    background-color: lightblue;
+    padding-bottom: 3%;
+    display: block;
+}
+.press-logo {
+    width: 5%;
+    margin: 10px 10px 10px;
+}
+
+
+/*Pricing*/
+.card-two {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+    color: black;
+    
+}
+#pricing {
+    padding: 100px;
+    
+}
+.price-head {
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.social-icon {
+    margin: 20px 10px;
+    
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  
+}
+/*Contact*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+#cta {
+    background-color: lightblue;
+    padding: 7% 15%;
+}
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    .pricing-column {
+    padding: 3% 2%;
+    float: none;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+
+
+

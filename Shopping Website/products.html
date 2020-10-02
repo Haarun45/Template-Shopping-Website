@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iBuy</title>
+    <meta charset="utf-8" />
+    <!--    Css Stylesheets-->
+    <link href='https://fonts.googleapis.com/css?family=Advent+Pro:300,700' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body>
+    <div class="container" style="padding-top: 8px;padding-bottom: 8px;">
+     <div class="grid grid-two">
+      <a href="index.html" style="font-weight: 500;">iBuy</a>
+
+     </div>
+     <div class="grid grid-two" style="padding-top: 24px;text-align: right;">
+     </div>
+    </div>
+   </header>
+   <main class="container">
+
+    <nav id="product-nav" class="full">
+     <li><a href="index.html">iBuy</a></li>
+     <li><a href="app.html">App</a></li>
+     <li><a href="products.html">Products</a></li>
+     <li><a href="contact.html">Contact Us</a></li>
+    </nav>
+    <div class="full">
+     <div class="grid grid-three">
+     <h1 class="text-blue">SHOES</h1>
+      <section class="box product">
+       <h2>Shoe 1</h2>
+       <img src="images/shoes/1.jpg" />
+      </section>
+      <section class="box product">
+       <h2>Shoe 2</h2>
+       <img src="images/shoes/2.jpg" />
+      </section>
+      <section class="box product">
+       <h2>Shoe 3</h2>
+       <img src="images/shoes/3.jpg" />
+      </section>
+      <section class="box product">
+       <h2>Shoe 4</h2>
+       <img src="images/shoes/4.jpg" />
+      </section>
+      <section class="box product">
+       <h2>Shoe 5</h2>
+       <img src="images/shoes/5.jpg" />
+      </section>
+     </div>
+     <div class="grid grid-three">
+     <h1 class="text-blue">PANTS</h1>
+      <section class="box product">
+       <h2>Pants 1</h2>
+       <img src="images/pants/1.jpg" />
+      </section>
+      <section class="box product">
+       <h2>Pants 2</h2>
+       <img src="images/pants/2.jpg" />
+      </section>
+      <section class="box product">
+       <h2>Pants 3</h2>
+       <img src="images/pants/3.jpg" />
+      </section>
+      <section class="box product">
+       <h2>Pants 4</h2>
+       <img src="images/pants/4.jpg" />
+      </section>
+      <section class="box product">
+       <h2>Pants 5</h2>
+       <img src="images/pants/5.jpg" />
+       
+      </section>
+     </div>
+     <div class="grid grid-three">
+     <h1 class="text-blue">T-SHIRTS</h1>
+      <section class="box product">
+       <h2>T-shirt 1</h2>
+       <img src="images/tshirts/1.jpg" />
+      </section>
+      <section class="box product">
+       <h2>T-shirt 2</h2>
+       <img src="images/tshirts/2.png" />
+      </section>
+      <section class="box product">
+       <h2>T-shirt 3</h2>
+       <img src="images/tshirts/3.jpg" />
+      </section>
+      <section class="box product">
+       <h2>T-shirt 4</h2>
+       <img src="images/tshirts/4.jpg" />
+      </section>
+      <section class="box product">
+       <h2>T-shirt 5</h2>
+       <img src="images/tshirts/5.jpg" />
+      </section>
+     </div>
+    </div>
+   </main>
+   
+   <script type="text/javascript">
+    (function(d) {
+     var products = document.getElementsByClassName('product');
+     for(var i = products.length - 1;i >= 0 ; --i) {
+      products[i].onclick = function() {
+       var src = this.getElementsByTagName('img')[0].src;
+       document.location.href = 'demo.html#' +  src;
+      }
+     }
+    })(document);
+
+   </script>
+  </body>
+</html>
